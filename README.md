@@ -1,4 +1,4 @@
-# The winter is coming, a little bit less of snowflake servers with Ansible
+# The winter is coming, remove some snowflakes from your servers with Ansible
 Once upon a time when containers an immutable infrastructure wasn't a thing I was in a situation where you build it, you shit it, you run it was a thing. There I was responsible for more than a handful linux machines with just a ssh access in my hand. My beard wasn't strong at that time and I was struck by imposter syndrome when I heard about sed, awk, pinging and grepping. Born and bread with CI, Testings and source control it felt very odd to hand craft machines every single time.
 
 ## TL;DR
