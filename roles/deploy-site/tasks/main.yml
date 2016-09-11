@@ -1,0 +1,6 @@
+---
+- name: "Say hi to apan ola"
+  debug: msg="Apan ola say HI!"
+
+- name: Deploy knowa bunga site
+  template: src=index.html.j2 dest="/var/www/html/index.nginx-debian.html"

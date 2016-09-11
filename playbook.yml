@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  pre_tasks:
+  - name: Ensure the latest version of nginx is installed
+    package: name=nginx state=latest
+    become: yes
+  roles:
+   - deploy-site
+  become: yes
